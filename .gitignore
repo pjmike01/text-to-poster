@@ -1,0 +1,11 @@
+node_modules/
+output/
+.tmp/
+*.log
+.DS_Store
+*.png
+*.jpg
+*.jpeg
+poster-*.html
+content-*.txt
+prompt-*.txt

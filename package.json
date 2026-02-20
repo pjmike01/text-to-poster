@@ -1,0 +1,27 @@
+{
+  "name": "text-to-poster",
+  "version": "1.0.0",
+  "description": "将文字内容转换为杂志风海报HTML，并截图生成多张图片",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "node generate.js",
+    "screenshot": "node screenshot.js",
+    "postinstall": "npx playwright install chromium || echo '请手动运行: npx playwright install chromium'"
+  },
+  "keywords": [
+    "poster",
+    "html",
+    "screenshot",
+    "magazine",
+    "design"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
